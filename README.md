@@ -58,6 +58,23 @@ The purpose of this analysis is to create and evaluate a deep learning model for
     - Increased the number of epochs to 100 to allow the model sufficient time to learn the data patterns.
     - Included a validation split to monitor the model’s performance on unseen data during training.
 
+## Visualizations
+
+**1. Confusion Matrix**
+The confusion matrix provides a summary of the model's performance on the test set, showing the counts of true positives, false positives, true negatives, and false negatives.
+
+![image](https://github.com/user-attachments/assets/42f03cb2-cc6c-4dea-a8d3-a54138fc7cb6)
+
+**2. Training and Validation Loss/Accuracy Curves:**
+These plots show the training and validation loss and accuracy over each epoch, providing insights into the model's learning process and helping to identify any signs of overfitting or underfitting.
+
+![image](https://github.com/user-attachments/assets/5abca3b4-a5cb-4395-80bc-39d12d7786f3)
+
+![image](https://github.com/user-attachments/assets/dc832039-98fc-40aa-b88c-238d863af62b)
+
+
+
+
 ## Summary
 The deep learning model for Alphabet Soup achieved an accuracy of approximately 72.6%, which is slightly below the target of 75%. Despite several optimization attempts, including adjusting the model architecture, adding dropout layers, and fine-tuning hyperparameters, the model's performance did not reach the desired level.
 
